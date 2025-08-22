@@ -1,40 +1,11 @@
 
 /*
-	Author
-	Md Nehal
-
+	Author 
+ 	Nehal21
 */
 
 #include<iostream>
 #include <vector>
-#include <deque>
-#include <queue>        
-#include <stack>        
-#include <set>       
-#include <map>          
-#include <unordered_set> 
-#include <unordered_map>
-#include <algorithm>   
-#include <numeric>      
-#include <functional>   
-#include <cmath>        
-#include <cstdlib>      
-#include <string>
-#include <cstring>     
-#include <climits>     
-#include <limits>       
-#include <ctime>        
-#include <bitset>
-#include <cassert>
-#include <complex>
-#include <iomanip>
-#include <valarray>
-#include <random>
-#include <memory>
-#include <chrono>
-#include <tuple>
-
-
 
 using namespace std;
 
@@ -50,7 +21,6 @@ const int INF = 1<<30;
 
 
 // I'm using right node as set bits and left node as unset bits
-
 
 
 
@@ -144,12 +114,6 @@ void solve(){
 
 
 int main(){
-#ifndef ONLINE_JUDGE	
-	freopen("input.txt","r",stdin);
-	freopen("output.txt","w",stdout);
-#endif
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
 	int t;
 	cin>>t;
 	while(t--){
