@@ -5,7 +5,7 @@ Given a number "N" determine whether ∃ 'r'  such that $T_r$ =  N;
 
 **Triangular Number**
 
-**• $T_r$  = $\frac{r*(r+1)}{2}$** 
+• $T_r$  = $\frac{r*(r+1)}{2}$ 
 
 
 **Hint:- T(r) is monotonic function so think of Binary Search  ✌🏻**
