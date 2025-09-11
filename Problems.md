@@ -75,7 +75,7 @@ A = [3 ,9 ,5 ,3 ,1]
 
 You are given an integer sequence A=( $A_1$ ​, $A_2$​ ,…, $A_N​$ ) of length N.
 
-Find how many pairs of integers (i,j) (1≤i<j≤N) satisfy =>  ** j−i= $A_i$​ + $A_j$ **​.
+Find how many pairs of integers (i,j) (1≤i<j≤N) satisfy =>  **j−i= $A_i$​ + $A_j$**​.
 
 
 **Sample Test**
@@ -83,9 +83,9 @@ Find how many pairs of integers (i,j) (1≤i<j≤N) satisfy =>  ** j−i= $A
 N = 9
 A= [3, 1, 4, 1, 5, 9, 2, 6, 5]
 
-For example, when (i,j)=(4,7), we have j−i=7−4=3 and $A_i$​ + $A_j$ ​= 1+2=3, so j−i= $A_i$​ + $A_j$​.
+For example, when (i,j)=(4,7), we have j−i=7−4=3 and  $A_i$​ + $A_j$ ​= 1+2=3, so j−i= $A_i$​ + $A_j$​.
 
-In contrast, when (i,j)=(3,8), we have j−i=8−3=5 and $A_i$​ + $A_j$​ = 4+6 = 10, so j−i= $A_i$ ​+ $A_j$​.
+In contrast, when (i,j)=(3,8), we have j−i=8−3=5 and  $A_i$​ + $A_j$​ = 4+6 = 10, so j−i= $A_i$ ​+ $A_j$​.
 
 Only the three pairs (i,j)=(1,9),(2,4),(4,7) satisfy the condition, so output `3`.
 
