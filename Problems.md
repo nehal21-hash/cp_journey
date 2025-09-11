@@ -26,7 +26,7 @@ GIven a number "N" determine total no of divisor "N" have
 
 You are given a permutation∗ 𝑝 of size 𝑛.
 
-Your task is to find a permutation 𝑞 of size 𝑛 such that GCD†($𝑝_𝑖$ + $𝑞_𝑖$ , $𝑝_j$ + $𝑞_j$ )≥3 for all 1≤𝑖,j<𝑛. In other words, the greatest common divisor of the sum of any two adjacent positions should be at least 3.
+Your task is to find a permutation 𝑞 of size 𝑛 such that GCD†($𝑝_𝑖$ + $𝑞_𝑖$ , $p_j$ + $q_j$ )≥3 for all 1≤𝑖,j<𝑛. In other words, the greatest common divisor of the sum of any two adjacent positions should be at least 3.
 
 **Task 1:-**
 
@@ -75,7 +75,7 @@ A = [3 ,9 ,5 ,3 ,1]
 
 You are given an integer sequence A=( $A_1$ ​, $A_2$​ ,…, $A_N​$ ) of length N.
 
-Find how many pairs of integers (i,j) (1≤i<j≤N) satisfy =>  **j−i= $A_i$​ + $A_j $**​.
+Find how many pairs of integers (i,j) (1≤i<j≤N) satisfy =>  ** j−i= $A_i$​ + $A_j$ **​.
 
 
 **Sample Test**
@@ -83,7 +83,7 @@ Find how many pairs of integers (i,j) (1≤i<j≤N) satisfy =>  **j−i= $A_
 N = 9
 A= [3, 1, 4, 1, 5, 9, 2, 6, 5]
 
-For example, when (i,j)=(4,7), we have j−i=7−4=3 and $A_i$​ + $A_j$ ​= 1+2=3, so j−i=$A_i$​+ $A_j$​.
+For example, when (i,j)=(4,7), we have j−i=7−4=3 and $A_i$​ + $A_j$ ​= 1+2=3, so j−i= $A_i$​ + $A_j$​.
 
 In contrast, when (i,j)=(3,8), we have j−i=8−3=5 and $A_i$​ + $A_j$​ = 4+6 = 10, so j−i= $A_i$ ​+ $A_j$​.
 
