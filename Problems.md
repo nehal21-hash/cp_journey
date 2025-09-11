@@ -26,7 +26,7 @@ GIven a number "N" determine total no of divisor "N" have
 
 You are given a permutation∗ 𝑝 of size 𝑛.
 
-Your task is to find a permutation 𝑞 of size 𝑛 such that GCD†($𝑝_𝑖$ +$𝑞_𝑖$,$𝑝_j$+$𝑞_j$ )≥3 for all 1≤𝑖,j<𝑛. In other words, the greatest common divisor of the sum of any two adjacent positions should be at least 3.
+Your task is to find a permutation 𝑞 of size 𝑛 such that GCD†($𝑝_𝑖$ + $𝑞_𝑖$ ,$𝑝_j$ + $𝑞_j$ )≥3 for all 1≤𝑖,j<𝑛. In other words, the greatest common divisor of the sum of any two adjacent positions should be at least 3.
 
 **Task 1:-**
 
@@ -47,12 +47,12 @@ Gcd(a,b) = Greatest Common Divisor  ,like gcd(21,12) = 3 , gcd(4,10) = 2
 
 **Constraint:**
 3<=n<=10^5
-1<=$p_i$<=n
+1<= $p_i$ <=n
 
 
 **Problem 4:-**
 
-You are given a positive integer N and an integer sequence A=($A_1$​,$A_2$​,…,$A_N​$) of length N.
+You are given a positive integer N and an integer sequence A=( $A_1$ ​, $A_2$​, …, $A_N​$ ) of length N.
 
 Determine whether there exists a non-empty (contiguous) subarray of A that has a repeated value, occurring multiple times in A. If such a subarray exists, find the length of the shortest such subarray.
 
@@ -66,7 +66,7 @@ A = [3 ,9 ,5 ,3 ,1]
 **Constraint**
 
 1<=N<=10^5
-1<=$A_i$<=10^5
+1<= $A_i$ <=10^5
 
 **Hint:- Traverse from 1 to n  and store the last indices of each element in map**
 
@@ -75,7 +75,7 @@ A = [3 ,9 ,5 ,3 ,1]
 
 You are given an integer sequence A=($A_1$​,$A_2$​,…,$A_N​$) of length N.
 
-Find how many pairs of integers (i,j) (1≤i<j≤N) satisfy =>  **j−i=$A_i$​ + $A_j$**​.
+Find how many pairs of integers (i,j) (1≤i<j≤N) satisfy =>  **j−i= $A_i$​ + $A_j $**​.
 
 
 **Sample Test**
@@ -94,4 +94,4 @@ Only the three pairs (i,j)=(1,9),(2,4),(4,7) satisfy the condition, so output�
 **Constraint**
 
 1<=N<=10^5
-1<=$A_i$<=10^5
+1<= $A_i$ <=10^5
